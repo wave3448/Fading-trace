@@ -1,0 +1,40 @@
+<!-- FADING TRACE / PUBLIC SUPPORT SECTION
+     Insert this section before the footer in index.html.
+     Replace the mailto addresses if your contact routes change.
+-->
+<style>
+  .support-interval{width:min(1400px,90vw);margin:auto;border-top:1px solid rgba(220,235,225,.15);padding:105px 0 120px;display:grid;grid-template-columns:150px minmax(0,760px);gap:clamp(28px,5vw,86px)}
+  .support-kicker{display:flex;flex-direction:column;gap:17px}
+  .support-kicker .support-rule{height:1px;width:47px;background:#ca7867;opacity:.8}
+  .support-kicker span{font:9px ui-monospace,SFMono-Regular,Menlo,monospace;letter-spacing:.16em;color:#9be7c2}
+  .support-main h2{font:400 clamp(54px,6vw,88px)/.86 Georgia,"Times New Roman",serif;letter-spacing:-.05em;margin:22px 0 30px;color:#e9e9df}
+  .support-main h2 em{font-style:italic;color:#9be7c2}
+  .support-main>p{font:13px/1.85 ui-monospace,SFMono-Regular,Menlo,monospace;color:#adb8b0;max-width:570px;margin:0 0 20px}
+  .support-note{border-left:1px solid #9be7c2;padding:4px 0 4px 18px;margin:35px 0;color:#77837b;font:10px/1.75 ui-monospace,SFMono-Regular,Menlo,monospace;max-width:610px}
+  .support-note strong{color:#9be7c2;font-weight:400}
+  .support-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:38px}
+  .support-action{display:inline-flex;justify-content:space-between;align-items:center;min-width:245px;padding:14px 15px;border:1px solid #9be7c2;background:transparent;color:#9be7c2;text-decoration:none;font:600 10px ui-monospace,SFMono-Regular,Menlo,monospace;letter-spacing:.08em;transition:.2s}
+  .support-action.primary{background:#9be7c2;color:#0b110e}
+  .support-action:hover{box-shadow:0 0 28px rgba(155,231,194,.2);background:#c9f5da;color:#0b110e}
+  .support-action span{margin-left:25px;font-size:15px}
+  @media(max-width:640px){.support-interval{width:calc(100vw - 40px);display:block;padding:80px 0 90px}.support-kicker{margin-bottom:58px}.support-main h2{font-size:62px}.support-main>p{font-size:11px}.support-action{width:100%;min-width:0}.support-actions{display:block}.support-action+.support-action{margin-top:10px}}
+</style>
+
+<section class="support-interval" id="support" aria-labelledby="support-title">
+  <div class="support-kicker">
+    <span>KEEP THE SIGNAL / 001</span>
+    <span class="support-rule"></span>
+    <span>PUBLIC NOTE</span>
+  </div>
+  <div class="support-main">
+    <span style="font:9px ui-monospace,SFMono-Regular,Menlo,monospace;letter-spacing:.17em;color:#9be7c2;opacity:.83">THIS WORK IS SUPPORTED BY ATTENTION</span>
+    <h2>Support the next<br /><em>interval.</em></h2>
+    <p>Fading Trace is free to witness. If this encounter stayed with you, you can help create the next one. Your support goes toward artist fees, accessible presentation, hosting, and the careful work of making a temporary exhibition.</p>
+    <div class="support-note"><strong>NO PAYWALL. NO PROMOTED REACH.</strong><br />Support does not buy visibility, selection, or a longer life for any artwork. It helps make the interval possible.</div>
+    <div class="support-actions">
+      <!-- Replace the # below with your real donation or payment link when ready. -->
+      <a class="support-action primary" href="#" aria-label="Support the next Fading Trace interval">SUPPORT THE NEXT INTERVAL <span>↗</span></a>
+      <a class="support-action" href="mailto:submissions@fadingtrace.life?subject=Commission%20a%20Fading%20Trace%20Interval">COMMISSION AN INTERVAL <span>↗</span></a>
+    </div>
+  </div>
+</section>
